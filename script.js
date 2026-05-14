@@ -21,6 +21,12 @@ class MathFunction {
     }
 }
 
+const mathCalc2 = new MathFunction(10, 4);
+console.log(mathCalc2.add());
+console.log(mathCalc2.subtract())
+console.log(mathCalc2.multiply())
+console.log(mathCalc2.divide())
+
 class Greetings {
     constructor(name) {
         this.name = name;
